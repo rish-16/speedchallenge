@@ -3,6 +3,8 @@ import numpy as np
 import cv2
 from PIL import Image
 
+from models import SpeedChallengeModel
+
 vid_path = "../data/train.mp4"
 speed_path = "../data/train.txt"
 
