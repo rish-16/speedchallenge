@@ -24,7 +24,7 @@ for i in range(len(os.listdir(train_vid_path))):
         frames.append(img)
     
     frames = np.array(frames)
-    np.save("../data/x_train_segment_{}.npy".format(str(i+1)), frames)
+    np.save("../data/train_segments/x_train_segment_{}.npy".format(str(i+1)), frames, allow_pickle=True)
 
 y_train = np.array(y_train)
 np.save("../data/y_train_dump.npy", y_train)

@@ -1,4 +1,8 @@
 data/train.mp4
 data/test.mp4
+data/.train.mp4.icloud
+data/.test.mp4.icloud
 data/train/*
 data/test/*
+data/train_segments/*
+data/test_segments/*
